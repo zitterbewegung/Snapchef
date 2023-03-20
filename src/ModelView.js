@@ -8,10 +8,15 @@ import { LoadingView } from './LoadingView';
 import { PredictionList } from './PredictionList';
 import { useTensorFlowModel } from './useTensorFlow';
 
+const sleep = (ms) => {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+};
+
 export function ModelView() {
   const model = useTensorFlowModel(mobilenet);
   const [predictions, setPredictions] = React.useState([]);
 
+  
   if (!model) {
     return <LoadingView message="Loading TensorFlow model" />;
   }
@@ -20,9 +25,12 @@ export function ModelView() {
     <View
       style={{ flex: 1, backgroundColor: "black", justifyContent: "center" }}
     >
+      
       <PredictionList predictions={predictions} />
       <View style={{ borderRadius: 20, overflow: "hidden" }}>
+        
         <ModelCamera model={model} setPredictions={setPredictions} />
+       
       </View>
     </View>
   );
@@ -41,6 +49,7 @@ function ModelCamera({ model, setPredictions }) {
   const onReady = React.useCallback(
     (images) => {
       const loop = async () => {
+        await sleep(11500)
         const nextImageTensor = images.next().value;
         const predictions = await model.classify(nextImageTensor);
         setPredictions(predictions);

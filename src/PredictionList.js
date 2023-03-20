@@ -1,13 +1,17 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import React, {useState} from 'react';
+import { StyleSheet, Text, View, Linking, Pressable, Alert} from "react-native";
 
 export function PredictionList({ predictions = [] }) {
+  const [modalVisible, setModalVisible] = useState(false);
   return (
     <View style={styles.container}>
+  
       {predictions.map((p, i) => (
-        <Text style={styles.text} key={`item-${i}`}>
-          {p.className}
-        </Text>
+        <Pressable onPress={() => Linking.openURL('https://cooking.nytimes.com/guides/1-how-to-make-pizza')}>
+          <Text style={styles.text} key={`item-${i}`}>
+            {p.className}
+          </Text>
+        </Pressable>
       ))}
     </View>
   );
