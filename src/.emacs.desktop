@@ -1,0 +1,55 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Mar 27 20:39:41 2023
+;; Desktop file format version 208
+;; Emacs version 28.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25634 17757 812618 0) (desktop . "208") "r2q2@Reformer.local" nil nil ((((minibuffer . t) (fontsize . 0) (font . "-*-Hack-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#424242") (background-color . "#FFFFE8") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "black") (scroll-bar-foreground . "black") (environment) (last-focus-update) (frameset--id . "6F8B-8BB0-1160-639B") (frameset--mini t . t) (height . 36) (width . 80) (modeline . t) (unsplittable) (left . 0) (top . 25) (icon-name) (visibility . t) (display . "Reformer.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 64) (min-pixel-width . 80) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 48) (min-pixel-height-safe . 16) (min-pixel-width-safe . 16)) leaf (pixel-width . 671) (pixel-height . 560) (total-width . 83) (total-height . 35) (normal-height . 1.0) (normal-width . 1.0) (buffer "PredictionList.js" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 939) (start . 789)) (prev-buffers ("src" 1 500) ("recipict" 1 820) ("*Bookmark List*" 1 613) ("*scratch*" 1 145))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/r2q2/Projects/recipict/src" "~/Projects/recipict/src/PredictionList.js" "~/Projects/program30/vtubestudio.py" "~/Projects/saati_experiments/src/visual_novel/saati_vn/game/script.rpy" "~/Projects/recipict/babel.config.js" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/digital_net_compression.py" "~/opt/llama.cpp/convert-pth-to-ggml.py" "~/Projects/saati_experiments/src/visual_novel/saati_vn/inference.py" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/computeMXY.py" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/testevalreg.py" "~/Projects/QMCSoftware/setup.py" "~/Projects/program30/twitch.py" "~/Projects/recipict_old/App.js" "~/Projects/recipict_old/package.json" "~/Projects/docsgpt/application/.env" "~/.bash_profile" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/test_data/reg_weights.csv" "~/Projects/saati_experiments/src/visual_novel/saati_vn/gateway.py" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/test_data/labels.csv" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/algorithm.c" "~/Projects/saturday/main.py" "~/Projects/saturday/waifu.py" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/approxmeanMXY.py" "~/Projects/QMCSoftware/qmcpy/machine_learning/c_lib/computeMXY.c" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/cost.txt" "~/Projects/QMCSoftware/qmcpy/machine_learning/compression/weights.txt"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/r2q2/Projects/recipict/src/PredictionList.js"
+  "PredictionList.js"
+  'js-mode
+  '(projectile-mode tree-sitter-mode)
+  939
+  '(902 t)
+  nil
+  nil
+  '((buffer-display-time 25634 2805 205075 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1448 1406 1344 1219 895 282 1061 1061 282 199 1125 1819 1819 290 282 331))))
+
+(desktop-create-buffer 208
+  nil
+  "src"
+  'dired-mode
+  '(projectile-mode)
+  500
+  '(nil nil)
+  t
+  '("/Users/r2q2/Projects/recipict/src/")
+  '((buffer-display-time 25634 2802 844777 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "recipict"
+  'dired-mode
+  '(projectile-mode)
+  820
+  '(nil nil)
+  t
+  '("/Users/r2q2/Projects/recipict/")
+  '((buffer-display-time 25634 2800 618389 0))
+  '((mark-ring nil)))
+

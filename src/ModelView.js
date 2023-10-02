@@ -49,7 +49,7 @@ function ModelCamera({ model, setPredictions }) {
   const onReady = React.useCallback(
     (images) => {
       const loop = async () => {
-        await sleep(11500)
+        await sleep(1500)
         const nextImageTensor = images.next().value;
         const predictions = await model.classify(nextImageTensor);
         setPredictions(predictions);
