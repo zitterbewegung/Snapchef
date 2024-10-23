@@ -1,23 +1,14 @@
-# TensorFlow Camera example
+# Project Name: SnapChef
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-</p>
+## Overview:
+SnapChef is an innovative mobile application that provides users with personalized recipe suggestions based on food images. Using **React Native Vision**, the app leverages advanced image recognition technology to identify ingredients in a photo and then suggests a variety of relevant recipes that the user can try. Whether it's a snapshot of a dish, a picture of ingredients on the counter, or even a restaurant meal, SnapChef provides creative cooking ideas and recipe guidance.
 
-Identify objects in real time using `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native acceleration).
+## Key Features:
 
-## 🚀 How to use
+1. **Image Recognition with React Native Vision:**
+   - Utilizes React Native Vision's camera and image processing capabilities to recognize ingredients in real-time.
+   - Automatically identifies key ingredients from photos taken by the user, such as fruits, vegetables, meats, and other common items.
 
-> `npx create-react-native-app my-app -t with-tfjs-camera`
-
-- Run `yarn start` or `npm run start`, open on a native device (simulator, emulator, and browser are not supported).
-- You can swap out `@tensorflow-models/mobilenet` for another [TensorFlow model](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) to achieve different results.
-
-## 📝 Notes
-
-- [TFJS Expo API reference](https://js.tensorflow.org/api_react_native/latest/#Media-Camera)
-- [`@tensorflow/tfjs-react-native` package](https://www.npmjs.com/package/@tensorflow/tfjs-react-native)
-- [Expo Camera docs](https://docs.expo.dev/versions/latest/sdk/camera/)
+2. **Recipe Database Integration:**
+   - Suggests recipes by matching identified ingredients with a large recipe database, ensuring the recipes are aligned with what’s available in the user's kitchen.
+   - Filters recipes based on dietary preferences (e.g., vegan, vegetarian, gluten-free, etc.) and difficulty levels.
