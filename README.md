@@ -1,6 +1,6 @@
 # Project Name: SnapChef
 
-NOTE this is a work in progress. Integration of recipies are still in progress.
+NOTE this is a work in progress.
 
 ## Overview:
 SnapChef is an innovative mobile application that provides users with personalized recipe suggestions based on food images. Using **React Native Vision**, the app leverages advanced image recognition technology to identify ingredients in a photo and then suggests a variety of relevant recipes that the user can try. Whether it's a snapshot of a dish, a picture of ingredients on the counter, or even a restaurant meal, SnapChef provides creative cooking ideas and recipe guidance.
